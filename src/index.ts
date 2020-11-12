@@ -41,3 +41,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.listen(app.get('port'), () => {
     console.log('Si sirve :D');
 });
+
+/* package scripts
+
+"ts:node": "ts-node src/index.ts",
+    "clean": "rm -rf build",
+    "build": "tsc",
+    "dev": "nodemon",
+
+*/
