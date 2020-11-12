@@ -13,7 +13,7 @@ import { allowInsecurePrototypeAccess } from "@handlebars/allow-prototype-access
 const Handlebars = require('handlebars')
 
 // Settings
-app.set('port', process.env.PORT || 3000);
+app.set('port',3000);
 app.set('views', path.join(__dirname, 'views'));
 app.engine('.hbs', exphbs({
     handlebars: allowInsecurePrototypeAccess(Handlebars),
